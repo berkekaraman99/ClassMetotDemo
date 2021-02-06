@@ -29,8 +29,10 @@ namespace ClassMetotDemo
             musteriManager.MusteriEkle(musteri3);
 
             Musteri[] musteriler = new Musteri[] { musteri1, musteri2, musteri3 };
+            Console.WriteLine("Müşteriler listeleniyor");
             musteriManager.MusteriListele(musteriler);
 
+            Console.WriteLine("Müşteri siliniyor");
             musteriManager.MusteriSil(musteri2);
 
             musteriler = new Musteri[] { musteri1, musteri3 };
